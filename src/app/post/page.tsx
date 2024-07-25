@@ -35,6 +35,7 @@ const PostToFacebook = () => {
     <div>
       <h1>Публикация в Facebook</h1>
       <textarea
+       className="w-full h-32 p-2 border border-gray-300 rounded-lg text-black"
         value={message}
         onChange={(e) => setMessage(e.target.value)}
         placeholder="Введите сообщение"
